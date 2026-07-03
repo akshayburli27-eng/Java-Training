@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/test/java/day1/Methods.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/test/java/day1/Methods.java" />
+              <option name="originalContent" value="package day1;&#10;&#10;public class Methods {&#10;&#10;&#10;    public void sum(){&#10;&#10;        System.out.println(&quot;Akshay&quot;);&#10;    }&#10;&#10;    public void add (int a, int b){&#10;&#10;        int result = a+b;&#10;&#10;      System.out.println(result);&#10;&#10;    }&#10;&#10;    public void name (String city){&#10;&#10;        String City = city;&#10;        System.out.println(&quot;City name: &quot; + City);&#10;    }&#10;&#10;    public int salary (int x, int y){&#10;&#10;        return  x+y;&#10;&#10;&#10;    }&#10;&#10;&#10;&#10;&#10;    public static void main(String[] args) {&#10;&#10;        Methods m = new Methods();&#10;        m.add(34,78);&#10;        m.name(&quot;banglore&quot;);&#10;        int z= m.salary(5,5);&#10;        System.out.println(z+9);// return value we can modify&#10;&#10;&#10;&#10;    }&#10;&#10;}&#10;" />
+              <option name="updatedContent" value="package day1;&#10;&#10;public class Methods {&#10;&#10;&#10;    public void add (int a, int b){&#10;&#10;        int result = a+b;&#10;&#10;      System.out.println(result);&#10;&#10;    }&#10;&#10;    public void name (String city){&#10;&#10;        System.out.println(&quot;City name: &quot; + city);&#10;    }&#10;&#10;    public int salary (int x, int y){&#10;&#10;        return  x+y;&#10;&#10;&#10;    }&#10;&#10;&#10;&#10;&#10;    public static void main(String[] args) {&#10;&#10;        Methods m = new Methods();&#10;        m.add(34,78);&#10;        m.name(&quot;banglore&quot;);&#10;        int z= m.salary(5,5);&#10;        System.out.println(z+9);// return value we can modify&#10;&#10;&#10;&#10;    }&#10;&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
